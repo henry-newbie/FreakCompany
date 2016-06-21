@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activity.AboutAppActivity"
+    tools:showIn="@layout/activity_about_app">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#eeeeee"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="奇葩公司app整理收集了网友在求职面试过程中碰到的一些不靠谱的公司，以免广大码农在求职过程中上当受骗，杜绝欺骗我们血汗钱的奇葩公司，目前数据都是现在本地文件里面，哪个大神能够提供下接口不胜感谢。 \n\n另外，特别感谢代码家大神提供的技术干货和福利资源。\n\n再次感谢那些默默为开源作出努力的开发者，完成这个App的完成也是站在巨人的肩膀上。"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="开源地址：\nhttps://github.com/henry-newbie/FreakCompany"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="使用到的开源库：\nRetrofit\nGlide\nRxJava RxAndroid\nEasyRecyclerView\nCircleImageView\nPhotoView"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="联系我：QQ：643995508"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="henry 2016  FreakCompany V1.0"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
