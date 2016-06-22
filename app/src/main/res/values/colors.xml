@@ -7,5 +7,7 @@
     <color name="text_default">#343434</color>      <!-- 常用的lable字体颜色 -->
     <color name="text_title">#343434</color>    <!-- 副标题的lable字体颜色 -->
     <color name="text_secondary">#838383</color>    <!-- 副标题的lable字体颜色 -->
-    <color name="text_thirdly">#aaaaaa</color>    <!-- 副标题的lable字体颜色 -->
+    <color name="text_thirdly">#aaaaaa</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>

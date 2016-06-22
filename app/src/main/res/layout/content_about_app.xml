@@ -28,16 +28,18 @@
             android:layout_height="wrap_content" />
 
         <TextView
+            android:id="@+id/tv_github_url"
             android:text="开源地址：\nhttps://github.com/henry-newbie/FreakCompany"
             android:background="#FFFFFF"
             android:padding="10dp"
             android:lineSpacingExtra="6dp"
             android:layout_margin="8dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"/>
 
         <TextView
-            android:text="使用到的开源库：\nRetrofit\nGlide\nRxJava RxAndroid\nEasyRecyclerView\nCircleImageView\nPhotoView"
+            android:text="使用到的开源库：\nRetrofit\nGlide\nRxJava RxAndroid\nEasyRecyclerView\nCircleImageView\nPhotoView\nfloatingactionbutton\nMaterialIntroView\neasy-android-splash-screen"
             android:background="#FFFFFF"
             android:padding="10dp"
             android:lineSpacingExtra="6dp"

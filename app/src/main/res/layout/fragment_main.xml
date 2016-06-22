@@ -10,4 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_progress="@layout/layout_progress" />
+
+<!--    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_send_black_24dp"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorAccent"
+        app:fab_colorRipple="@color/colorAccent" />-->
 </FrameLayout>

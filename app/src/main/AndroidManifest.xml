@@ -13,22 +13,30 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activity.MainActivity">
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ui.activity.MainActivity"/>
+
         <activity android:name=".ui.activity.GanHuoActivity" />
+
         <activity
             android:name=".ui.activity.FreakCompanyDetailActivity"
             android:theme="@style/AppTheme" />
+
         <activity android:name=".ui.activity.FuLiActivity" />
+
         <activity
             android:name=".ui.activity.AboutAppActivity"
-            android:label="@string/title_activity_aboat_app"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

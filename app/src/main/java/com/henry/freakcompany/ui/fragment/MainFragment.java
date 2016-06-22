@@ -16,6 +16,7 @@ import com.henry.freakcompany.adapter.FreakCompanyAdapter;
 import com.henry.freakcompany.model.FreakCompanyModel;
 import com.henry.freakcompany.model.FreakCompanyResponse;
 import com.henry.freakcompany.ui.activity.FreakCompanyDetailActivity;
+import com.henry.freakcompany.ui.activity.MainActivity;
 import com.henry.freakcompany.utils.FileUtils;
 import com.henry.freakcompany.view.EmptyView;
 import com.jude.easyrecyclerview.EasyRecyclerView;
@@ -33,6 +34,9 @@ public class MainFragment extends Fragment implements SwipeRefreshLayout.OnRefre
 
     @BindView(R.id.recyclerView)
     EasyRecyclerView recyclerView;
+
+//    @BindView(R.id.fab)
+//    FloatingActionButton fab;
 
 //    private String title;
 
@@ -87,6 +91,11 @@ public class MainFragment extends Fragment implements SwipeRefreshLayout.OnRefre
             }
         });
 
+        MainActivity mainActivity = (MainActivity) getActivity();
+        if (mainActivity != null) {
+            mainActivity.setFab(recyclerView.getRecyclerView());
+        }
+
         getData();
         return view;
     }
@@ -115,6 +124,7 @@ public class MainFragment extends Fragment implements SwipeRefreshLayout.OnRefre
 
                     @Override
                     public void onNext(FreakCompanyResponse freakCompanyResponse) {
+                        freakCompanyResponse.results.addAll(freakCompanyResponse.results);
                         freakCompanyAdapter.addAll(freakCompanyResponse.results);
                     }
                 });
