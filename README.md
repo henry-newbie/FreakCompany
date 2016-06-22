@@ -30,7 +30,7 @@
 
 # THANKS
 
-谢谢gank.io提供API，感谢大神们提供的优秀开源库。欢迎star，fork。
+谢谢gank.io提供API，感谢大神们提供的优秀开源库。欢迎star，fork，有问题联系QQ：643995508。
 
 
 
