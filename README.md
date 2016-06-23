@@ -1,5 +1,5 @@
 # FreakCompany
-奇葩公司app收集了一些坑人的互联网公司，提醒广大码农擦亮眼睛，避免上当受骗。
+奇葩公司app收集了一些坑人的互联网公司，提醒广大码农擦亮眼睛，避免上当受骗，目前公司的数据都是写在本地，欢迎大神提供接口。
 
 ![](https://raw.githubusercontent.com/henry-newbie/FreakCompany/master/screenshot/screenshot.png)
 
@@ -30,7 +30,7 @@
 
 # THANKS
 
-谢谢gank.io提供API，感谢大神们提供的优秀开源库。欢迎star，fork，有问题联系QQ：643995508。
+感谢gank.io提供了android干货和福利接口，感谢大神们提供的优秀开源库。欢迎star，fork，有问题联系QQ：643995508。
 
 
 
